@@ -1,0 +1,5 @@
+# ninja log v5
+3	350	6974776948772748	build.ninja	17c8224a35f175c9
+5	742	6974772297510331	CMakeFiles/cpplion.dir/main.cpp.obj	720a197c596750e2
+743	912	6974772299155930	cpplion.exe	e3e1fce5651681d3
+7	1117	6974772171390570	CMakeFiles/cpplion.dir/heighestNum.cpp.obj	57dd325f8c6e138b
