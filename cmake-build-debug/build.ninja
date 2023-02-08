@@ -67,6 +67,12 @@ build CMakeFiles/cpplion.dir/addons/changeRadius.cpp.obj: CXX_COMPILER__cpplion_
   OBJECT_DIR = CMakeFiles\cpplion.dir
   OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\addons
 
+build CMakeFiles/cpplion.dir/addons/roundNumber.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/addons/roundNumber.cpp || cmake_object_order_depends_target_cpplion
+  DEP_FILE = CMakeFiles\cpplion.dir\addons\roundNumber.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\cpplion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\addons
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpplion
@@ -75,7 +81,7 @@ build CMakeFiles/cpplion.dir/addons/changeRadius.cpp.obj: CXX_COMPILER__cpplion_
 #############################################
 # Link the executable cpplion.exe
 
-build cpplion.exe: CXX_EXECUTABLE_LINKER__cpplion_Debug CMakeFiles/cpplion.dir/main.cpp.obj CMakeFiles/cpplion.dir/addons/heighestNum.cpp.obj CMakeFiles/cpplion.dir/addons/changeRadius.cpp.obj
+build cpplion.exe: CXX_EXECUTABLE_LINKER__cpplion_Debug CMakeFiles/cpplion.dir/main.cpp.obj CMakeFiles/cpplion.dir/addons/heighestNum.cpp.obj CMakeFiles/cpplion.dir/addons/changeRadius.cpp.obj CMakeFiles/cpplion.dir/addons/roundNumber.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpplion.dir

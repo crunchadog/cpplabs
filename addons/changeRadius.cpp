@@ -2,11 +2,9 @@
 #include "../header.h"
 
 void changeCircleRadiusLink(double &r, double &d) {
-    double &radius = r;
-    double &decrease = d;
-    double result = radius - decrease;
+    double result = r - d;
     if (result > 0) {
-        radius = result;
+        r = result;
     } else {
         std::cout << "Radius < 0";
     }
