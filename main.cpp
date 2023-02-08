@@ -5,13 +5,23 @@
 int main() {
     int a;
     int b;
-    std::cin >> a >> b;
+    double r;
+    std::cin >> r;
 
-    changeHighestNumberLink(a, b);
-    changeHighestNumberPointer(&a, &b);
-    std::cout << std::endl;
+    double decrease;
+    std::cin >> decrease;
+
+    std::cout <<"Before:" << r << '\n';
+//    changeHighestNumberLink(a, b);
+//    changeHighestNumberPointer(&a, &b);
+//    changeCircleRadiusLink(r, decrease);
+    changeCircleRadiusPointer(&r, &decrease);
+    std::cout <<"After:" << r << '\n';
+
+
+//    std::cout << std::endl;
     std::cout << "-------------" << '\n';
-    std::cout << a << " " << b << '\n';
+    std::cout << r << '\n';
     std::cout << "-------------" << '\n';
 
 }
