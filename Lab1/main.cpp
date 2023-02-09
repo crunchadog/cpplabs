@@ -9,6 +9,6 @@ int main() {
                     {8,9,5},
             };
 
-    transposeMatrixPointer(matrix);
-    transposeMatrixLink(matrix);
+//    transposeMatrixPointer(matrix);
+//    transposeMatrixLink(matrix);
 }
