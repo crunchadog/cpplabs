@@ -21,6 +21,10 @@ vectorR3 vectorR3::operator+(vectorR3 &other) const {
     return vectorR3(other.x + x, other.y + y, other.z + z);
 }
 
+vectorR3 vectorR3::operator-(vectorR3 &other) const {
+    return vectorR3(x - other.x, y - other.y, z - other.z);
+}
+
 std::ostream &operator<<(std::ostream &output, const vectorR3 &otherV) {
     return output << "(" << otherV.getX() << ", " << otherV.getY()
                   << ", " << otherV.getZ() << ")" << '\n';
