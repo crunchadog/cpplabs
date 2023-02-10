@@ -23,6 +23,7 @@ public:
     double angleWithADifferentVector(vectorR3 &other) const;
 
     vectorR3 operator+(vectorR3 &other) const;
+    vectorR3 operator-(vectorR3 &other) const;
 
 };
 
