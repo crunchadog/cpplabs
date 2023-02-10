@@ -49,35 +49,17 @@ cmake_ninja_workdir = C$:/cpplion/cmake-build-debug/
 
 build cmake_object_order_depends_target_cpplion: phony || CMakeFiles/cpplion.dir
 
-build CMakeFiles/cpplion.dir/Lab1/main.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/Lab1/main.cpp || cmake_object_order_depends_target_cpplion
-  DEP_FILE = CMakeFiles\cpplion.dir\Lab1\main.cpp.obj.d
+build CMakeFiles/cpplion.dir/Lab2/main.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/Lab2/main.cpp || cmake_object_order_depends_target_cpplion
+  DEP_FILE = CMakeFiles\cpplion.dir\Lab2\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\cpplion.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\Lab1
+  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\Lab2
 
-build CMakeFiles/cpplion.dir/Lab1/addons/heighestNum.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/Lab1/addons/heighestNum.cpp || cmake_object_order_depends_target_cpplion
-  DEP_FILE = CMakeFiles\cpplion.dir\Lab1\addons\heighestNum.cpp.obj.d
+build CMakeFiles/cpplion.dir/Lab2/operations.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/Lab2/operations.cpp || cmake_object_order_depends_target_cpplion
+  DEP_FILE = CMakeFiles\cpplion.dir\Lab2\operations.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\cpplion.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\Lab1\addons
-
-build CMakeFiles/cpplion.dir/Lab1/addons/changeRadius.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/Lab1/addons/changeRadius.cpp || cmake_object_order_depends_target_cpplion
-  DEP_FILE = CMakeFiles\cpplion.dir\Lab1\addons\changeRadius.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\cpplion.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\Lab1\addons
-
-build CMakeFiles/cpplion.dir/Lab1/addons/roundNumber.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/Lab1/addons/roundNumber.cpp || cmake_object_order_depends_target_cpplion
-  DEP_FILE = CMakeFiles\cpplion.dir\Lab1\addons\roundNumber.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\cpplion.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\Lab1\addons
-
-build CMakeFiles/cpplion.dir/Lab1/addons/transposeMatrix.cpp.obj: CXX_COMPILER__cpplion_Debug C$:/cpplion/Lab1/addons/transposeMatrix.cpp || cmake_object_order_depends_target_cpplion
-  DEP_FILE = CMakeFiles\cpplion.dir\Lab1\addons\transposeMatrix.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\cpplion.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\Lab1\addons
+  OBJECT_FILE_DIR = CMakeFiles\cpplion.dir\Lab2
 
 
 # =============================================================================
@@ -87,7 +69,7 @@ build CMakeFiles/cpplion.dir/Lab1/addons/transposeMatrix.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable cpplion.exe
 
-build cpplion.exe: CXX_EXECUTABLE_LINKER__cpplion_Debug CMakeFiles/cpplion.dir/Lab1/main.cpp.obj CMakeFiles/cpplion.dir/Lab1/addons/heighestNum.cpp.obj CMakeFiles/cpplion.dir/Lab1/addons/changeRadius.cpp.obj CMakeFiles/cpplion.dir/Lab1/addons/roundNumber.cpp.obj CMakeFiles/cpplion.dir/Lab1/addons/transposeMatrix.cpp.obj
+build cpplion.exe: CXX_EXECUTABLE_LINKER__cpplion_Debug CMakeFiles/cpplion.dir/Lab2/main.cpp.obj CMakeFiles/cpplion.dir/Lab2/operations.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpplion.dir
