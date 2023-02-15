@@ -5,6 +5,6 @@
 </div>
 
 <div style="list-style-type: upper-roman; font-family: Cambria">
-    <li><a href="https://studfile.net/preview/6126481/" style="color: #d0ccd0; font-style: italic;">Передача значения по ссылке</a></li>
-    <li><a href="https://studfile.net/preview/6126486/" style="color: #d0ccd0; font-style: italic">Класс вектор в R<sup>3</sup></a></li>
+    <li><a href="https://studfile.net/preview/6126481/">Передача значения по ссылке</a></li>
+    <li><a href="https://studfile.net/preview/6126486/" style="color: #d0ccd0; font-style: italic;">Класс вектор в R<sup>3</sup></a></li>
 </div>
