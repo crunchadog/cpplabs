@@ -5,15 +5,8 @@
 </div>
 
 <div style="list-style-type: upper-roman; font-family: Cambria">
-    <ul style="font-style: italic;">
+    <ul style="color: red;font-style: italic;">
         <li><a href="https://studfile.net/preview/6126481/">Передача значения по ссылке</a></li>
         <li><a href="https://studfile.net/preview/6126486/">Класс вектор в R<sup>3</sup></a></li>
     </ul>
 </div>
-
-<style>
-    li a{
-        color: #d0ccd0; 
-        font-style: italic;
-    }
-</style>
