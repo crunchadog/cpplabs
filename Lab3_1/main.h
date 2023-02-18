@@ -15,6 +15,8 @@ public:
 
     ComplexNumber(ComplexNumber &other); // Конструктор копирования.
 
+    double length() const;
+
     double getReal() const;
 
     void setReal(double real);
@@ -25,6 +27,7 @@ public:
 
     ComplexNumber operator+(ComplexNumber &other) const;
 
+
     ComplexNumber operator*(ComplexNumber &other) const;
     ComplexNumber operator*(double &other) const;
 
@@ -34,7 +37,5 @@ public:
     ~ComplexNumber();
 
 };
-
-
 
 #endif

@@ -1,5 +1,6 @@
 #include "main.h"
 #include "iostream"
+#include "cmath"
 
 ComplexNumber::ComplexNumber() {
     real = image = 0;
@@ -56,14 +57,16 @@ ComplexNumber ComplexNumber::operator*(double &other) const {
     return complex;
 }
 
-
 std::ostream &operator<<(std::ostream &output, const ComplexNumber &otherVal) {
     return output << otherVal.getReal() << " + " << otherVal.getImage() << "i" << '\n';
 }
 
 std::istream &operator>>(std::istream &input, ComplexNumber &otherVal) {
-    input >> otherVal.real >> otherVal.image;
-    return input;
+    return input >> otherVal.real >> otherVal.image;
+}
+
+double ComplexNumber::length() const {
+    return sqrt(real * real + image * image);
 }
 
 ComplexNumber::~ComplexNumber() = default;
