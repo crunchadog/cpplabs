@@ -8,5 +8,6 @@
     <ul style="color: red;font-style: italic;">
         <li><a style="color: red;" href="https://studfile.net/preview/6126481/">Передача значения по ссылке</a></li>
         <li><a href="https://studfile.net/preview/6126486/">Класс вектор в R<sup>3</sup></a></li>
+        <li><a href="https://studfile.net/preview/6126487/">Перегрузка операторов</sup></a></li>
     </ul>
 </div>
