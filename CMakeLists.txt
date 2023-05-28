@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
-project(cpplion)
+project(Lab7)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 
-add_executable(cpplion Lab2/main.h Lab2/main.cpp Lab2/operations.cpp)
+add_executable(Lab7 main.cpp src/App/App.h src/App/App.cpp src/Exception/BufferOverflowException.h src/Exception/BufferOverflowException.cpp src/CircularBuffer/CircularBuffer.h src/CircularBuffer/CircularBuffer.cpp)
